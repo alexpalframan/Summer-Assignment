@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Credit Card Validator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/98.css" />
+  
+</head>
+<nav style="position: fixed;
+top: 0px;
+width: 100%;
+">
+<div class="window-body" >
+  
+
+  <menu role="tablist">
+    <li role="tab" aria-selected="true"><a href="index.html">Credit Card Validator</a></li>
+    <li role="tab"><a href="info.html">Information about my Project</a></li>
+
+  </menu>
+  <div class="window" role="tabpanel">
+    <div class="window-body">
+    </div>
+  </div>
+</div>
+</nav>
+<body style="background-image: url('88d6fb952f82eac1f4338fab0539c069.jpg'); background-repeat: no-repeat; background-attachment: fixed;
+background-size: cover; ">
+  <div class="container">
+    <div class="title-bar">
+      <div class="title-bar-text">
+        Credit Card Validator
+      </div>
+    </div>
+
+    <div>
+      <label for="fullNameInput">Full Name:</label>
+      <input type="text" id="fullNameInput" required>
+    </div>
+    <div>
+      <label for="addressInput">Address:</label>
+      <input type="text" id="addressInput" required>
+    </div>
+    <div>
+      <label for="phoneNumberInput">Phone Number:</label>
+      <input type="tel" id="phoneNumberInput" required>
+    </div>
+    <div>
+      <label for="emailInput">Email:</label>
+      <input type="email" id="emailInput" required>
+    </div>
+    <div>
+      <label for="cvcInput">CVC:</label>
+      <input type="text" id="cvcInput" required>
+    </div>
+    <div>
+      <label for="expiryDateInput">Expiry Date:</label>
+      <input type="text" id="expiryDateInput" required>
+    </div>
+    <div>
+      <label for="cardNumberInput">Credit Card Number:</label>
+      <input type="text" id="cardNumberInput" placeholder="Enter credit card number" required>
+    </div>
+    <button onclick="validateCard()">Validate</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- References -
+
+https://www.softpaz.com/software/download-credit-card-online-validator-windows-95.html
+
+https://www.pinterest.ie/pin/31947478600183868/
+
+
+-->
